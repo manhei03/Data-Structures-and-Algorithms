@@ -1,0 +1,1 @@
+package adt;/** * An interface for the ADT stack. *///copy from Chapter 4 for Linked Stackpublic interface StackInterface<T> {      public void push(T newEntry);    public T pop();  public T peek();  public boolean isEmpty();  public void clear();} // end StackInterface
